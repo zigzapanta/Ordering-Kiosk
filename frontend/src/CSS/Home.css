@@ -1,0 +1,39 @@
+*{
+	padding: 0;
+	margin:  0;
+	box-sizing: border-box;
+}
+
+
+.home{
+	display: flex;
+	flex-direction: row;
+	width: auto;
+}
+
+
+
+.scroll-area {
+	background-color: blue;
+	height: auto;
+	width: 15vw;
+
+
+
+}
+
+
+.banner {
+	background-color: red;
+	height: 25vh;
+	width: 100%;
+
+}
+
+
+.main {
+	background-color: mediumspringgreen;
+	height: 75vh;
+	width: 85vw;
+
+}
