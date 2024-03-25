@@ -1,0 +1,28 @@
+
+
+.side-scroll-area{
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+}
+
+
+
+.categories {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 1px;
+	border: solid red;
+}
+
+
+.categories img {
+	width: 5vw;
+	height: auto;
+}
+
+
+.categories h3 {
+	color: red;
+}

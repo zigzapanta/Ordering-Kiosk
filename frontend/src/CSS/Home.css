@@ -14,7 +14,7 @@
 
 
 .scroll-area {
-	background-color: blue;
+	background-color: white;
 	height: auto;
 	width: 15vw;
 
@@ -24,7 +24,9 @@
 
 
 .banner {
-	background-color: red;
+	background-image: url('../Assets/banner.jpg');
+	background-position: center;
+	background-size: auto;
 	height: 25vh;
 	width: 100%;
 
