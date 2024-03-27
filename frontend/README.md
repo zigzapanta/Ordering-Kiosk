@@ -10,3 +10,8 @@
 * Added Icons
 * Fixed Sidescrollarea component
 * Created banner using bing image generator
+
+
+## Day 3 
+* Added images for the menu
+* Added data for the menu
