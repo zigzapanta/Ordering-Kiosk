@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import "./Sidescrollarea.css"
 import burgersIcon from '../../Assets/burgersIcon.png'
 import chickenIcon from '../../Assets/chickenIcon.png'
@@ -16,10 +17,12 @@ const SideScrollArea = () => {
 
 	<div className="side-scroll-area">
 		<img className="logo" src={mcdoLogo} alt="" />
+		<Link style={{textDecoration: 'none'}} to="/burger" >
 		<div className="categories burgers">
 		<img src={burgersIcon} alt=""/>
 		<h3>Burgers</h3>
 		</div>
+		</Link>
 		<div className="categories chicken">
 		<img src={chickenIcon} alt=""/>
 		<h3>Chicken & Fish</h3>
