@@ -27,3 +27,13 @@
 ### Project Goal
 * Make singular interactable page that where you can access the data (for learning purposes)
 * Additional pages would be cart and success page in order to proper practice CSS and also general UI creation 
+
+
+
+
+
+
+### Side notes
+* When using fetch and relative URL it would default to using localhost 3000 instead of finding the path relative to file
+* (e.g in Main.js using "fetch ('../../Assets/all_data')"  it would fetch from "http://localhost:3000/Assets/all_data.js")
+* place the data in a url that can be easily accessed

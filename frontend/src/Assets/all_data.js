@@ -135,7 +135,7 @@ let all_product = [
     id: 16,
     name: "Spaghetti with Chicken",
     category: ["spaghetti", "ala-carte"],
-    image: "pending", // No corresponding image
+    image: spaghetti,
     price: 50.0,
   },
   {
@@ -163,7 +163,7 @@ let all_product = [
     id: 20,
     name: "Mcflurry",
     category: ["icecream", "ala-carte", "dessert"],
-    image: mcflurry, //
+    image: mcflurry,
     price: 50.0,
   },
   {

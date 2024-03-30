@@ -1,1 +1,24 @@
-Product.css
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.product{
+	display: flex;
+	flex-direction: column;
+	width: 15em;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	margin: 2em;
+	background-color: rgba(195, 183, 189, 0.18);
+}
+
+.product:hover{
+	box-shadow: 0 0 10px rgba(245, 0, 0, 0.7);
+}
+
+
+.product p {
+	font-weight: 600;
+}

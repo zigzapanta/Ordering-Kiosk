@@ -1,8 +1,9 @@
 import React from 'react'
 import "../CSS/Home.css"
 import Sidescrollarea from '../Components/Sidescrollarea/Sidescrollarea'
+import Main from '../Components/Main/Main'
 
-const Home = () => {
+const Home = ({menu}) => {
 	return(
 
 	<div className="home">
@@ -14,6 +15,7 @@ const Home = () => {
 			<div className="banner">
 			</div>
 			<div className="main">
+			<Main menu={menu}/>
 
 			</div>
 		</div>

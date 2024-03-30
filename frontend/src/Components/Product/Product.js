@@ -1,4 +1,5 @@
 import React from 'react'
+import './Product.css'
 
 
 
@@ -7,8 +8,8 @@ const Product = (props) => {
 		<div className="product">
 		<img src={props.image} alt=""/>
 		<p>{props.name}</p>
-		<div className="item-prices">
-			<div className="item-price-new">
+		<div className="product-bottom">
+			<div className="product-price">
 				₱{props.price}
 			</div>
 				
