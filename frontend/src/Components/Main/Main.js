@@ -1,19 +1,16 @@
 import React from 'react'
 import Data from '../Data.js'
-import all_data from '../../Assets/all_data'
+import all_product from '../../Assets/all_data'
 import Product from "../Product/Product"
 import './Main.css'
 
 
-console.log(all_data)
 
-const Main = ({ menu, all_data }) => {
-	console.log("menu:", menu)
-	console.log("data:", all_data)
+const Main = ({menu}) => {
     return (
         <div className="main-component">
-            {all_data.map((product) => (
-                product.category.includes(menu) ? (
+            {all_product.map((product) => (
+                product.category.includes(menu) && product.category.includes("ala-carte") ? (
                     <Product
                         key={product.id}
                         id={product.id}

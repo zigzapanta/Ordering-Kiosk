@@ -15,8 +15,10 @@
 
 .scroll-area {
 	background-color: white;
-	height: auto;
 	width: 15vw;
+	position: sticky;
+    top: 0; 
+    height: 100vh; 
 
 
 
@@ -29,13 +31,15 @@
 	background-size: auto;
 	height: 25vh;
 	width: 100%;
+	position: sticky;
 
 }
 
 
 .main {
-	background-color: mediumspringgreen;
+	background-color: white;
 	height: 75vh;
 	width: 85vw;
+	 overflow-x: auto; /* Allow scrolling if content exceeds height */
 
 }

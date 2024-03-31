@@ -13,30 +13,10 @@ import Main from '../../Components/Main/Main'
 
 
 
-const SideScrollArea = () => {
-	const [menu,setMenu] = useState("shop");
-
-   useEffect(() => {
-        fetchData();
-    }, [menu])
-
-    const fetchData = async () => {
-        try {
-            const response = await fetch(`/data`)
-            if (!response.ok) {
-                throw new Error('Failed to fetch data');
-            }
-            const data = await response.json
-            console.log(response)
-        } catch (error) {
-            console.error('Error fetching data:', error);
-        }
-    };
-
+const SideScrollArea = ({ onMenuClick }) => {
     const handleMenuClick = (category) => {
-        setMenu(category);
-        // After setting the menu, fetch data again
-        fetchData()
+        // Call the 'onMenuClick' function passed from the parent
+        onMenuClick(category);
     };
 
 

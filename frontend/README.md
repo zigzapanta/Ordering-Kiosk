@@ -22,6 +22,9 @@
 * Made a Product card to successfully fetch data with use of URL
 * Possible note, try to use data.
 
+## Day 5
+* Able to fetch different products based on on category in a singular page (a little in efficent, would fetch from '/data'but map all_data)
+* Added Modal after clicking ala-carte products
 
 
 ### Project Goal
