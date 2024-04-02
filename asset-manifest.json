@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Ordering-Kiosk/static/css/main.023342b9.css",
-    "main.js": "/Ordering-Kiosk/static/js/main.d7d6a917.js",
+    "main.js": "/Ordering-Kiosk/static/js/main.14a2c3cc.js",
     "static/js/453.8ab44547.chunk.js": "/Ordering-Kiosk/static/js/453.8ab44547.chunk.js",
     "static/media/bigmac_meal.jpeg": "/Ordering-Kiosk/static/media/bigmac_meal.64a00da62dac8461ffe9.jpeg",
     "static/media/nuggets.png": "/Ordering-Kiosk/static/media/nuggets.5600c0a4a670f5f2bcca.png",
@@ -37,11 +37,11 @@
     "static/media/coffeeIcon.png": "/Ordering-Kiosk/static/media/coffeeIcon.3b72787c07ef601d4427.png",
     "index.html": "/Ordering-Kiosk/index.html",
     "main.023342b9.css.map": "/Ordering-Kiosk/static/css/main.023342b9.css.map",
-    "main.d7d6a917.js.map": "/Ordering-Kiosk/static/js/main.d7d6a917.js.map",
+    "main.14a2c3cc.js.map": "/Ordering-Kiosk/static/js/main.14a2c3cc.js.map",
     "453.8ab44547.chunk.js.map": "/Ordering-Kiosk/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.023342b9.css",
-    "static/js/main.d7d6a917.js"
+    "static/js/main.14a2c3cc.js"
   ]
 }
